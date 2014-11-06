@@ -14,6 +14,8 @@
 		3E5DDF611A0BA988002562D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E5DDF601A0BA988002562D1 /* Images.xcassets */; };
 		3E5DDF641A0BA988002562D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E5DDF621A0BA988002562D1 /* LaunchScreen.xib */; };
 		3E5DDF701A0BA988002562D1 /* VORingProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5DDF6F1A0BA988002562D1 /* VORingProgressTests.m */; };
+		3E5DDF7F1A0BAA07002562D1 /* VORingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5DDF7C1A0BAA07002562D1 /* VORingIndicator.m */; };
+		3E5DDF801A0BAA07002562D1 /* VORingProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5DDF7E1A0BAA07002562D1 /* VORingProgressView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		3E5DDF691A0BA988002562D1 /* VORingProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VORingProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5DDF6E1A0BA988002562D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E5DDF6F1A0BA988002562D1 /* VORingProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VORingProgressTests.m; sourceTree = "<group>"; };
+		3E5DDF7B1A0BAA07002562D1 /* VORingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VORingIndicator.h; sourceTree = "<group>"; };
+		3E5DDF7C1A0BAA07002562D1 /* VORingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VORingIndicator.m; sourceTree = "<group>"; };
+		3E5DDF7D1A0BAA07002562D1 /* VORingProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VORingProgressView.h; sourceTree = "<group>"; };
+		3E5DDF7E1A0BAA07002562D1 /* VORingProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VORingProgressView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		3E5DDF521A0BA988002562D1 /* VORingProgress */ = {
 			isa = PBXGroup;
 			children = (
+				3E5DDF7A1A0BAA07002562D1 /* RingProgress */,
 				3E5DDF571A0BA988002562D1 /* AppDelegate.h */,
 				3E5DDF581A0BA988002562D1 /* AppDelegate.m */,
 				3E5DDF5A1A0BA988002562D1 /* ViewController.h */,
@@ -117,6 +124,17 @@
 				3E5DDF6E1A0BA988002562D1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E5DDF7A1A0BAA07002562D1 /* RingProgress */ = {
+			isa = PBXGroup;
+			children = (
+				3E5DDF7B1A0BAA07002562D1 /* VORingIndicator.h */,
+				3E5DDF7C1A0BAA07002562D1 /* VORingIndicator.m */,
+				3E5DDF7D1A0BAA07002562D1 /* VORingProgressView.h */,
+				3E5DDF7E1A0BAA07002562D1 /* VORingProgressView.m */,
+			);
+			path = RingProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +239,8 @@
 			files = (
 				3E5DDF5C1A0BA988002562D1 /* ViewController.m in Sources */,
 				3E5DDF591A0BA988002562D1 /* AppDelegate.m in Sources */,
+				3E5DDF801A0BAA07002562D1 /* VORingProgressView.m in Sources */,
+				3E5DDF7F1A0BAA07002562D1 /* VORingIndicator.m in Sources */,
 				3E5DDF561A0BA988002562D1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
